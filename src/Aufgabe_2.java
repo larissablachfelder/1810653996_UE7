@@ -12,7 +12,7 @@ public class Aufgabe_2
                 int number = Integer.parseInt(JOptionPane.showInputDialog("Bitte eine Zahl eingeben."));
 
                 JOptionPane.showMessageDialog(null, "Danke für die Eingabe.");
-                break;
+                break;//wird abgebrochen wenn eine Zahl eingegeben wurde
 
             } catch (NumberFormatException e)
             {
